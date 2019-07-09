@@ -12,5 +12,10 @@ namespace RandallsCarLot
     public string Make { get; set; }
 
     public double Price { get; set; }
+
+    public void Drive()
+    {
+      Console.WriteLine($"I'm drivin' my {Model} here!!!");
+    }
   }
 }
