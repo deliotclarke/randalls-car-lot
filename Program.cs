@@ -66,6 +66,7 @@ namespace RandallsCarLot
       var garage2 = new List<Car>() { ford2, tesla2 };
 
       tesla2.Drive();
+      tesla2.Drive(470);
 
       //       "vehicles": [
       //           {
