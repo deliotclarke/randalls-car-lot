@@ -15,7 +15,12 @@ namespace RandallsCarLot
 
     public void Drive()
     {
-      Console.WriteLine($"I'm drivin' my {Model} here!!!");
+      Console.WriteLine($"I'm drivin' my {Make} here!!!");
+    }
+
+    public void Drive(int miles)
+    {
+      Console.WriteLine($"{Make} is driving for {miles}.");
     }
   }
 }
